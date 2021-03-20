@@ -1,0 +1,24 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/cate/index",
+        "pages/cart/index",
+        "pages/user/index",
+        "pages/goods_datial/index",
+        "pages/goods_list/index",
+        "pages/order/index",
+        "pages/auth/index",
+        "pages/login/index",
+        "pages/search/index"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "xxx-餐馆",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}
