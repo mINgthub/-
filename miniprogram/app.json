@@ -12,13 +12,44 @@
         "pages/search/index"
     ],
     "window": {
-        "backgroundColor": "#F6F6F6",
+        "backgroundColor": "#fff",
         "backgroundTextStyle": "dark",
-        "navigationBarBackgroundColor": "#F6F6F6",
-        "navigationBarTitleText": "xxx-餐馆",
+        "navigationBarBackgroundColor": "#FFD103",
+        "navigationBarTitleText": "真好吃餐馆",
         "navigationBarTextStyle": "black",
         "enablePullDownRefresh": true
     },
+    "tabBar": {
+      "color": "#8a8a8a",
+      "selectedColor": "#FFD103",
+      "position": "bottom",
+      "borderStyle": "black",
+      "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icons/index.png",
+        "selectedIconPath": "./icons/index1.png"
+      },
+      {
+        "pagePath": "pages/cate/index",
+        "text": "分类",
+        "iconPath": "./icons/cate.png",
+        "selectedIconPath": "./icons/cate1.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "餐车",
+        "iconPath": "./icons/cart.png",
+        "selectedIconPath": "./icons/cart1.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "./icons/user.png",
+        "selectedIconPath": "./icons/user1.png"
+      }
+      
+    ]},
     "sitemapLocation": "sitemap.json",
     "style": "v2"
 }
